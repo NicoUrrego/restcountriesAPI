@@ -1,30 +1,30 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RestcountriesApi NicoUrrego</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RestCountries API - Nico Urrego</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ResCountries API </h1>
+  <h1>Paises del Mundo</h1>
 
-    <nav>
-        <button onclick="Home()">Home</button>
-    </nav>
+  <nav>
+    <button onclick="Home()">MENU</button>
+    <button onclick="mostrarMas()">Mostrar Mas</button>
+  </nav>
 
-    <div id="root">
-        <!-- aqui se agrega lo que hagamos en js -->
-    </div>
+  <div id="root">
+    <!-- Aquí se cargará el contenido dinámico -->
+  </div>
 
-    <script src="js/conexion.js"></script>
-    <script src="js/detalle.js"></script>
-    <script src="js/home.js"></script>
-    
+  <!-- Orden correcto de scripts -->
+  <script src="js/home.js"></script>
+  <script src="js/conexion.js"></script>
+  <script src="js/detalle.js"></script>
 
-     <script>
-
-        document.addEventListener("DOMContentLoaded",General)
-
-    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", General);
+  </script>
 </body>
 </html>
