@@ -1,4 +1,4 @@
-let totalPaises = 20;
+let totalPaises = 50;
 let paises = [];
 
 // Conectar API

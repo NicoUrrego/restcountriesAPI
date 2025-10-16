@@ -32,7 +32,7 @@ button:hover {
 .c-lista-paises {
   color:rgb(35, 34, 34);
   display: inline-block;
-  background: white;
+  background: rgb(214, 214, 214);
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   margin: 10px;
@@ -58,11 +58,6 @@ button:hover {
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
-.btn-volver {
-  margin-top: 20px;
-  background: #e74c3c;
-}
-
 .buscador-container {
   display: flex;
   justify-content: center;
@@ -75,4 +70,9 @@ button:hover {
   border-radius: 12px;
   border: 1px solid #ccc;
   font-size: 1rem;
+}
+
+.btn-volver {
+  margin-top: 20px;
+  background: #e74c3c;
 }
